@@ -1,0 +1,15 @@
+@import url(./header.css);
+@import url(./sidebar.css);
+@import url(./container-primary.css);
+@import url(./container-gallery.css);
+@import url(./reproductor.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: 'DM Sans', sans-serif;
+}
+

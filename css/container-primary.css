@@ -1,0 +1,113 @@
+.container-primary{
+    display:flex;
+    margin-right: 56px;
+    margin-top: 6px;
+    margin-bottom: 50px;
+}
+
+.container-title-banner{
+    display: flex;
+    gap: 10px;
+    margin-top: -50px;
+}
+
+.button-mas{
+    width:20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid #45125C;
+    background-color: white;
+}
+.text-button-mas{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container-banner{
+    display:inline-block;
+    min-width: 606px;
+    width: 100%;
+    height: 352px;
+    background-color:#F09FA8 ;
+    margin-top: 50px;
+    border-radius:16px ;
+}
+
+.container-banner h1{
+    font-size: 96px;
+    font-weight: 700;
+    color: #45125C;
+    margin-left: 63px;
+    margin-top: 26px;
+}
+
+
+.container-img-dua{
+    width: 440px;
+    height: 424px;
+    position: relative;
+    margin-top: -382px;
+    /* margin-top: -285px; */
+    /* margin-left: 545px; */
+    margin-right: 56px;
+    margin-left: auto;
+}
+
+
+.container-text-banner{
+    margin-top: 32px;
+    margin-left:64px ;
+    display: flex;
+    gap: 24px;
+}
+.text-banner{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: white;
+    margin-top: 32px;
+}
+
+
+.container-banner .description-banner p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #45125C;
+    font-weight: 700;
+    margin-left: 63px;
+    margin-top: 24px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items: center;
+    margin-left: 63px;
+    margin-top: 24px;
+    gap: 19px;
+}
+
+.btn-container .menu-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #45125C;
+    cursor: pointer;
+}
+
+.btn-container .btn-follow{
+    width: 160px;
+    height: 48px;
+    border-radius: 28px;
+    background-color: white;
+    color: #45125C;
+    font-size: 18px;
+    padding: 12px 38px 12px 38px;
+    font-weight: 700;
+    border: 0px;
+    cursor: pointer;
+}

@@ -1,0 +1,103 @@
+.reproductor{
+    background-color: red;
+    width: auto;
+    height: 88px;
+    background: rgba(52, 31, 62, 0.7);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+
+}
+
+.reproductor .name-song{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reproductor .name-song-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.reproductor .name-artist{
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+.reproductor .song-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.reproductor img{
+    width:56px;
+    height: 56px;
+    margin: 16px 20px 16px 40px;
+}
+
+.reproductor .barra-reproductor{
+    width: 612px;
+    height: 4px;
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.5);
+    margin: auto;
+    
+}
+
+.reproductor .barra-progress{
+    width: 198px;
+    height: 4px;
+    border-radius: 16px;
+    background-color:white;
+    cursor: pointer;
+}
+
+.reproductor .barra-progress:hover{
+    background-color:#F09FA8;
+}
+
+.reproductor .barra-progress .barra-progress-circle{
+    width: 8px;
+    height: 8px;
+    background-color:white;
+    border-radius: 50px;
+    margin-left: 194px;
+    cursor: pointer;
+}
+
+.reproductor .barra-progress .barra-progress-circle:hover{
+    background-color:#FF7BAB;
+}
+
+
+.duration-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.players-controls{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left:20px;
+    margin-right: 56px;
+}
+
+.players-controls .fa-backward-step{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.players-controls .fa-circle-play{
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.players-controls .fa-forward-step{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}

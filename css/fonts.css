@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot');
+    src:  url('../fonts/icomoon.eot#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.eot/icomoon.ttf?i4dljw') format('truetype'),
+      url('../fonts/icomoon.eot/icomoon.woff?i4dljw') format('woff'),
+      url('../fonts/icomoon.eot/icomoon.svg?i4dljw#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-albums:before {
+    content: "\e900";
+    color: #fff;
+  }
+  .icon-artist:before {
+    content: "\e901";
+    color: #ae47ff;
+  }
+  .icon-favorites:before {
+    content: "\e902";
+    color: #fff;
+  }
+  .icon-home:before {
+    content: "\e903";
+    color: #fff;
+  }
+  .icon-live:before {
+    content: "\e904";
+    color: #fff;
+  }
+  .icon-playlist:before {
+    content: "\e905";
+    color: #fff;
+  }
+  .icon-recently:before {
+    content: "\e906";
+    color: #fff;
+  }
+  .icon-search:before {
+    content: "\e907";
+    color: #fff;
+  }
+  
